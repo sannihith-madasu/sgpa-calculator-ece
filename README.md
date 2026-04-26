@@ -1,16 +1,14 @@
-# React + Vite
+SNIST A22 ECE: Quick SGPA Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek dashboard designed to instantly calculate your Semester Grade Point Average (SGPA) without the manual math, credit lookups, or staring at confusing result PDFs. Find your roll number from the long confusing result pdf given to us, scroll through your grades, put them in the website and get your calculated SGPA out in seconds.
 
-Currently, two official plugins are available:
+Built specifically for the A22 Electronics and Communication Engineering curriculum.
+⚡ How It Works
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+    Choose Your Semester: Select your current semester from the top menu (e.g., Sem 2-1, Sem 3-2). The dashboard will automatically load the exact subjects, labs, and credit weights for that specific term.
 
-## React Compiler
+    Log Your Grades: Go down the list and select the letter grade you received (O, A+, A, B+, etc.) for each subject using the dropdown menus.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+    Instant Results: No math, no "Calculate" buttons. The moment you input the grade for your final subject, your exact SGPA will automatically pop up in the corner of your screen.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Note: Refreshing the page or switching semesters will clear your current inputs, allowing you to quickly calculate a different semester from scratch.
