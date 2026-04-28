@@ -12,21 +12,21 @@ const ACADEMIC_DATA = {
       { code: "9CC02", name: "Signals and Systems", credits: 3.0 },
       { code: "9CC03", name: "PTSP", credits: 3.0 },
       { code: "9AC72", name: "ECNA Lab", credits: 1.5 },
-      { code: "9HC05", name: "Environmental Science", credits: 0 }
     ]
   },
   "2-2": {
-    totalCredits: 21,
+    totalCredits: 24,
     subjects: [
       { code: "9CC04", name: "Analog Circuits", credits: 3.0 },
-      { code: "9CC06", name: "Analog & Digital Comm", credits: 3.0 },
+      { code: "9CC06", name: "Analog & Digital Comms", credits: 3.0 },
       { code: "9CC05", name: "Digital Logic Design", credits: 3.0 },
+      { code: "9C407", name: "EM Waves & Transmission Lines", credits: 3.0},
       { code: "9HC16", name: "Quant Aptitude & Log Reasoning", credits: 3.0 },
       { code: "9HC03", name: "Universal Human Values", credits: 3.0 },
       { code: "9CC72", name: "Analog Circuits Lab", credits: 1.5 },
-      { code: "9C473", name: "DLD Lab", credits: 2.0 },
+      { code: "9C473", name: "BS and DLD Lab", credits: 2.0 },
       { code: "9CC74", name: "ADC Lab", credits: 1.5 },
-      { code: "9C461", name: "Technical Seminar", credits: 1.0 }
+      { code: "9C461", name: "Technical Seminar", credits: 1.0 },
     ]
   },
   "3-1": {
@@ -34,48 +34,49 @@ const ACADEMIC_DATA = {
     subjects: [
       { code: "9CC08", name: "Digital Signal Processing", credits: 3.0 },
       { code: "9CC09", name: "IC Applications", credits: 3.0 },
-      { code: "9CC15", name: "Microprocessors & Controllers", credits: 3.0 },
+      { code: "9C510", name: "Antennas and Wave Propagations", credits: 3.0 },
       { code: "PE-1",  name: "Professional Elective-I", credits: 3.0 },
-      { code: "OE-1",  name: "Open Elective-I", credits: 3.0 },
-      { code: "9CC75", name: "DSP Lab", credits: 2.0 },
-      { code: "9CC76", name: "ICA Lab", credits: 1.5 },
+      { code: "9AC07", name: "Linear Control Systems", credits: 3.0 },
+      { code: "9CC75", name: "DS Processing Lab", credits: 2.0 },
+      { code: "9CC76", name: "IC Applications Lab", credits: 1.5 },
       { code: "9C578", name: "Antenna Simulation Lab", credits: 1.5 },
-      { code: "PSI-1", name: "Summer Industry Internship-I", credits: 1.0 }
+      { code: "9C591", name: "Summer Industry Internship-I", credits: 1.0 },
     ]
   },
   "3-2": {
     totalCredits: 21,
     subjects: [
-      { code: "9C611", name: "Microwave & Optical Comm", credits: 3.0 },
+      { code: "9C611", name: "Microwave & Optical Comms", credits: 3.0 },
       { code: "9C612", name: "VLSI Technology and Design", credits: 3.0 },
-      { code: "9C613", name: "Data Comm & Networks", credits: 3.0 },
+      { code: "9DC05", name: "Microprocessors and Microcontrollers", credits: 3.0 },
       { code: "PE-2",  name: "Professional Elective-II", credits: 3.0 },
-      { code: "OE-2",  name: "Open Elective-II", credits: 3.0 },
-      { code: "9C671", name: "MOC Lab", credits: 1.5 },
-      { code: "9C672", name: "VLSI Lab", credits: 1.5 },
-      { code: "9C673", name: "Advanced Comm Skills Lab", credits: 1.0 },
-      { code: "9C681", name: "Industry Oriented Mini Project", credits: 2.0 }
+      { code: "OE-1",  name: "Open Elective-I", credits: 3.0 },
+      { code: "9C679", name: "MOC Lab", credits: 2.0 },
+      { code: "9C677", name: "VLSI Tech and Design Lab", credits: 1.5 },
+      { code: "9DC71", name: "MPMC Lab", credits: 1.5 },
+      { code: "9C662", name: "Comprehensive Viva Voce", credits: 1.0 },
     ]
   },
   "4-1": {
     totalCredits: 21,
     subjects: [
-      { code: "9C711", name: "Cellular & Mobile Comm", credits: 3.0 },
+      { code: "9C713", name: "IoT and Applications", credits: 3.0 },
+      { code: "9C714", name: "Advanced Comms and Networks", credits: 3.0 },
+      { code: "9C715", name: "Computer Networks", credits: 3.0 },
       { code: "PE-3",  name: "Professional Elective-III", credits: 3.0 },
       { code: "PE-4",  name: "Professional Elective-IV", credits: 3.0 },
-      { code: "PE-5",  name: "Professional Elective-V", credits: 3.0 },
-      { code: "OE-3",  name: "Open Elective-III", credits: 3.0 },
-      { code: "9C771", name: "Internet of Things Lab", credits: 1.5 },
-      { code: "9C772", name: "Microwave Engineering Lab", credits: 1.5 },
-      { code: "9C781", name: "Major Project Phase-I", credits: 3.0 }
+      { code: "OE-2",  name: "Open Elective-II", credits: 3.0 },
+      { code: "9C780", name: "IoT and Applications Lab", credits: 1.0 },
+      { code: "9C781", name: "Advanced Comms and Networks Lab", credits: 1.0 },
+      { code: "9C792", name: "Summer Industry Internship-II", credits: 1.0 },
     ]
   },
   "4-2": {
     totalCredits: 16,
     subjects: [
-      { code: "PE-6",  name: "Professional Elective-VI", credits: 3.0 },
-      { code: "OE-4",  name: "Open Elective-IV", credits: 3.0 },
-      { code: "9C881", name: "Major Project Phase-II", credits: 10.0 }
+      { code: "PE-5",  name: "Professional Elective-V", credits: 3.0 },
+      { code: "OE-3",  name: "Open Elective-III", credits: 3.0 },
+      { code: "9C893", name: "Major Project", credits: 10.0 },
     ]
   }
 };
